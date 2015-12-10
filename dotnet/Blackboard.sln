@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Register", "Register\Register.xproj", "{51857D6B-A5A6-4F47-804C-EEB2D326383E}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Blackboard.Registry", "Blackboard.Registry\Blackboard.Registry.xproj", "{51857D6B-A5A6-4F47-804C-EEB2D326383E}"
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Blackboard.Shared", "Blackboard.Shared\Blackboard.Shared.xproj", "{CF9938B0-F4FA-496E-BA96-0867E6668240}"
 EndProject

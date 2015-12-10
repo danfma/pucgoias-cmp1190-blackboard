@@ -1,15 +1,23 @@
 {
-  "version": "1.0.0",
-  
-  "dependencies": {
-    "Akka": "1.0.5",
-    "Akka.Remote": "1.0.5",
-    "Blackboard.Shared": "1.0.0"
-  },
-  
-  "frameworks": {
-    "dnx451": {
-      
-    }
-  }
+	"version": "1.0.0",
+
+	"dependencies": {
+		"Akka": "1.0.5",
+		"Akka.Remote": "1.0.5",
+		"Blackboard.Shared": "1.0.0",
+		"Eto.Forms": "1.2.0",
+		"Eto.Platform.Windows": "1.2.0"
+	},
+
+	"commands": {
+		"Blackboard": "Blackboard"
+	},
+
+	"frameworks": {
+		"dnx451": {
+			"dependencies": {
+				"System.Runtime": "4.0.21-beta-23516"
+			}
+		}
+	}
 }

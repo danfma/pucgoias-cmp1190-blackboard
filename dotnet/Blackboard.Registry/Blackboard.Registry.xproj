@@ -7,11 +7,10 @@
   <Import Project="$(VSToolsPath)\DNX\Microsoft.DNX.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
     <ProjectGuid>51857d6b-a5a6-4f47-804c-eeb2d326383e</ProjectGuid>
-    <RootNamespace>Register</RootNamespace>
+    <RootNamespace>Blackboard.Registry</RootNamespace>
     <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">..\artifacts\obj\$(MSBuildProjectName)</BaseIntermediateOutputPath>
     <OutputPath Condition="'$(OutputPath)'=='' ">..\artifacts\bin\$(MSBuildProjectName)\</OutputPath>
   </PropertyGroup>
-
   <PropertyGroup>
     <SchemaVersion>2.0</SchemaVersion>
   </PropertyGroup>

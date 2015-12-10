@@ -31,7 +31,31 @@
       },
       "Blackboard.Shared/1.0.0": {
         "type": "project",
-        "framework": "DNX,Version=v4.5.1"
+        "framework": "DNX,Version=v4.5.1",
+        "dependencies": {
+          "Akka": "1.0.5"
+        }
+      },
+      "Eto.Forms/1.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Eto.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Eto.dll": {}
+        }
+      },
+      "Eto.Platform.Windows/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Eto.Forms": "1.2.0"
+        },
+        "compile": {
+          "lib/net40/Eto.Platform.Windows.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Eto.Platform.Windows.dll": {}
+        }
       },
       "Google.ProtocolBuffers/2.4.1.521": {
         "type": "package",
@@ -61,9 +85,18 @@
         "runtime": {
           "lib/net45/Newtonsoft.Json.dll": {}
         }
+      },
+      "System.Runtime/4.0.21-beta-23516": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
       }
     },
-    "DNX,Version=v4.5.1/osx.10.11-x86": {
+    "DNX,Version=v4.5.1/win7-x86": {
       "Akka/1.0.5": {
         "type": "package",
         "dependencies": {
@@ -92,7 +125,31 @@
       },
       "Blackboard.Shared/1.0.0": {
         "type": "project",
-        "framework": "DNX,Version=v4.5.1"
+        "framework": "DNX,Version=v4.5.1",
+        "dependencies": {
+          "Akka": "1.0.5"
+        }
+      },
+      "Eto.Forms/1.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Eto.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Eto.dll": {}
+        }
+      },
+      "Eto.Platform.Windows/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Eto.Forms": "1.2.0"
+        },
+        "compile": {
+          "lib/net40/Eto.Platform.Windows.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Eto.Platform.Windows.dll": {}
+        }
       },
       "Google.ProtocolBuffers/2.4.1.521": {
         "type": "package",
@@ -122,9 +179,18 @@
         "runtime": {
           "lib/net45/Newtonsoft.Json.dll": {}
         }
+      },
+      "System.Runtime/4.0.21-beta-23516": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
       }
     },
-    "DNX,Version=v4.5.1/osx.10.11-x64": {
+    "DNX,Version=v4.5.1/win7-x64": {
       "Akka/1.0.5": {
         "type": "package",
         "dependencies": {
@@ -153,7 +219,31 @@
       },
       "Blackboard.Shared/1.0.0": {
         "type": "project",
-        "framework": "DNX,Version=v4.5.1"
+        "framework": "DNX,Version=v4.5.1",
+        "dependencies": {
+          "Akka": "1.0.5"
+        }
+      },
+      "Eto.Forms/1.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Eto.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Eto.dll": {}
+        }
+      },
+      "Eto.Platform.Windows/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Eto.Forms": "1.2.0"
+        },
+        "compile": {
+          "lib/net40/Eto.Platform.Windows.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Eto.Platform.Windows.dll": {}
+        }
       },
       "Google.ProtocolBuffers/2.4.1.521": {
         "type": "package",
@@ -182,6 +272,15 @@
         },
         "runtime": {
           "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "System.Runtime/4.0.21-beta-23516": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
         }
       }
     }
@@ -212,6 +311,28 @@
         "Akka.Remote.nuspec",
         "lib/net45/Akka.Remote.dll",
         "lib/net45/Akka.Remote.xml"
+      ]
+    },
+    "Eto.Forms/1.2.0": {
+      "type": "package",
+      "sha512": "e5e/m7gYPkYAOd6zDWlRQcMb2sk8a2gcrIrwKSNW274bhnOqGjppdrlXI1GAPT+50IWdxoZEC3Om8vlKNE/GdA==",
+      "files": [
+        "content/LICENSE",
+        "Eto.Forms.1.2.0.nupkg",
+        "Eto.Forms.1.2.0.nupkg.sha512",
+        "Eto.Forms.nuspec",
+        "lib/net40/Eto.dll",
+        "lib/net40/Eto.xml"
+      ]
+    },
+    "Eto.Platform.Windows/1.2.0": {
+      "type": "package",
+      "sha512": "nr4fcc2SQSgjYPw5tMwIllRNWJI2j1xWz5mJRpNRVgEsgo+51QJt45cq6yz94AawKwAPrwnalPVxcTUNicdtYg==",
+      "files": [
+        "Eto.Platform.Windows.1.2.0.nupkg",
+        "Eto.Platform.Windows.1.2.0.nupkg.sha512",
+        "Eto.Platform.Windows.nuspec",
+        "lib/net40/Eto.Platform.Windows.dll"
       ]
     },
     "Google.ProtocolBuffers/2.4.1.521": {
@@ -306,14 +427,91 @@
         "Newtonsoft.Json.nuspec",
         "tools/install.ps1"
       ]
+    },
+    "System.Runtime/4.0.21-beta-23516": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "R174ctQjJnCIVxA2Yzp1v68wfLfPSROZWrbaSBcnEzHAQbOjprBQi37aWdr5y05Pq2J/O7h6SjTsYhVOLdiRYQ==",
+      "files": [
+        "lib/DNXCore50/System.Runtime.dll",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.Runtime.dll",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "ref/dotnet5.1/de/System.Runtime.xml",
+        "ref/dotnet5.1/es/System.Runtime.xml",
+        "ref/dotnet5.1/fr/System.Runtime.xml",
+        "ref/dotnet5.1/it/System.Runtime.xml",
+        "ref/dotnet5.1/ja/System.Runtime.xml",
+        "ref/dotnet5.1/ko/System.Runtime.xml",
+        "ref/dotnet5.1/ru/System.Runtime.xml",
+        "ref/dotnet5.1/System.Runtime.dll",
+        "ref/dotnet5.1/System.Runtime.xml",
+        "ref/dotnet5.1/zh-hans/System.Runtime.xml",
+        "ref/dotnet5.1/zh-hant/System.Runtime.xml",
+        "ref/dotnet5.3/de/System.Runtime.xml",
+        "ref/dotnet5.3/es/System.Runtime.xml",
+        "ref/dotnet5.3/fr/System.Runtime.xml",
+        "ref/dotnet5.3/it/System.Runtime.xml",
+        "ref/dotnet5.3/ja/System.Runtime.xml",
+        "ref/dotnet5.3/ko/System.Runtime.xml",
+        "ref/dotnet5.3/ru/System.Runtime.xml",
+        "ref/dotnet5.3/System.Runtime.dll",
+        "ref/dotnet5.3/System.Runtime.xml",
+        "ref/dotnet5.3/zh-hans/System.Runtime.xml",
+        "ref/dotnet5.3/zh-hant/System.Runtime.xml",
+        "ref/dotnet5.4/de/System.Runtime.xml",
+        "ref/dotnet5.4/es/System.Runtime.xml",
+        "ref/dotnet5.4/fr/System.Runtime.xml",
+        "ref/dotnet5.4/it/System.Runtime.xml",
+        "ref/dotnet5.4/ja/System.Runtime.xml",
+        "ref/dotnet5.4/ko/System.Runtime.xml",
+        "ref/dotnet5.4/ru/System.Runtime.xml",
+        "ref/dotnet5.4/System.Runtime.dll",
+        "ref/dotnet5.4/System.Runtime.xml",
+        "ref/dotnet5.4/zh-hans/System.Runtime.xml",
+        "ref/dotnet5.4/zh-hant/System.Runtime.xml",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/de/System.Runtime.xml",
+        "ref/netcore50/es/System.Runtime.xml",
+        "ref/netcore50/fr/System.Runtime.xml",
+        "ref/netcore50/it/System.Runtime.xml",
+        "ref/netcore50/ja/System.Runtime.xml",
+        "ref/netcore50/ko/System.Runtime.xml",
+        "ref/netcore50/ru/System.Runtime.xml",
+        "ref/netcore50/System.Runtime.dll",
+        "ref/netcore50/System.Runtime.xml",
+        "ref/netcore50/zh-hans/System.Runtime.xml",
+        "ref/netcore50/zh-hant/System.Runtime.xml",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "runtimes/win8-aot/lib/netcore50/System.Runtime.dll",
+        "System.Runtime.4.0.21-beta-23516.nupkg",
+        "System.Runtime.4.0.21-beta-23516.nupkg.sha512",
+        "System.Runtime.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "": [
       "Akka >= 1.0.5",
       "Akka.Remote >= 1.0.5",
-      "Blackboard.Shared >= 1.0.0"
+      "Blackboard.Shared >= 1.0.0",
+      "Eto.Forms >= 1.2.0",
+      "Eto.Platform.Windows >= 1.2.0"
     ],
-    "DNX,Version=v4.5.1": []
+    "DNX,Version=v4.5.1": [
+      "System.Runtime >= 4.0.21-beta-23516"
+    ]
   }
 }
