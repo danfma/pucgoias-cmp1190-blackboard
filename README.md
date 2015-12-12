@@ -132,8 +132,8 @@ e esse for o **líder**, então o **RegistryActor** deverá iniciar o processo
 de eleição, escolhendo o próximo líder (o quadro disponível com o id mais baixo), e enviando
 a este quadro a informação que é o novo líder, através da mensagem `ActAsLeader()`.
 
-![imagens/new-actor-without-leader.png](Novo ator sem líder)
-![imagens/new-actor-with-leader.png](Novo ator com líder)
+![Novo ator sem líder](imagens/new-actor-without-leader.png)
+![Novo ator com líder](imagens/new-actor-with-leader.png)
 
 # Funcionamento dos quadros
 
